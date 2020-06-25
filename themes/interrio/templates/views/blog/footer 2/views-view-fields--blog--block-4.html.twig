@@ -1,0 +1,40 @@
+<li class="single-popular-news-item clearfix">
+    <div class="img-holder">
+        <img style="width: 80px;height: 80px;" src="{{ file_url(fields.uri.content|striptags|trim) }}" alt="{{fields.title.content}}">
+        <div class="overlay">
+            <div class="box">
+                <div class="content">
+                    <a href="{{fields.view_node.content}}"><i class="fa fa-link"></i></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-holder">
+        <a href="{{fields.view_node.content}}">
+            <p>{{fields.title.content}}</p>
+        </a>
+        <ul class="info">
+            <li>by {{fields.uid.content}}</li>
+            <li>{{fields.created.content}}</li>  
+        </ul>    
+    </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

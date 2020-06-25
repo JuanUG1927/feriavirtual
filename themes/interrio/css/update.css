@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2018, 10:51:47 AM
+    Author     : amgad
+*/
+
+.contact-v1-area .contact-form-v1 form input[type="submit"],#contact-message-feedback-form input[type="submit"]{
+    padding: 17px 32px 15px;
+    transition: all 500ms ease;
+    color: #fff;
+    background: #d5ac63; 
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid #d5ac63;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    transition: all 500ms ease;
+    line-height: 14px;
+}
+.contact-v1-area .contact-form-v1 form input[type="submit"]:hover,#contact-message-feedback-form input[type="submit"]:hover{
+    background: #141414;  
+    border: 2px solid #d5ac63;
+    color: #fff;
+}
+#contact-message-feedback-form #edit-preview{
+    display:none; 
+
+}
+
+
+.single-shop-item .img-holder .overlay .box .content form input[type="submit"]{
+    background: #2f2f2f;
+    color: #d5ac63;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    height: 40px;
+    line-height: 36px;
+    border: 2px solid #2f2f2f;
+    transition: all 500ms ease 0s;
+    width: 135px;
+    text-transform: uppercase;
+
+}
+
+.single-shop-item .img-holder .overlay .box .content form input[type="submit"]:hover{
+    background: #d5ac63;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    height: 40px;
+    line-height: 36px;
+    border: 2px solid #2f2f2f;
+    transition: all 500ms ease 0s;
+    width: 135px;
+    text-transform: uppercase;
+
+}
+
+
+
+/*cart*/
+table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+table>thead>tr>th {
+
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.uc-cart-view-form table tr th, .uc-cart-view-form table tr td {
+    vertical-align: middle;
+}
+table>tbody>tr>td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+.uc-cart-view-form table img {
+    width: 70px;
+    min-width: 70px;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+table td.price span{
+    color: #2a2b2f !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+table thead th.price {
+    display: table-cell !important;
+}
+table tbody td.price{
+
+    display: table-cell;
+}
+.uc-cart-view-form table>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+#uc-cart-view-form th.desc {
+    width: auto; 
+}
+#uc-cart-view-form td {
+    vertical-align: middle;
+}
+
+#uc-cart-view-form .form-actions input{
+    background: #000000;
+    color: #fefefe;
+    /*    border-color: #000;*/
+    transition: all 700ms ease 0s !important;
+    border: 1px solid #000000;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700 !important;
+    padding: 9.5px 18.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 11px;
+    margin-right: 34px;
+}
+#uc-cart-view-form table input[type="submit"],.uc-cart-checkout-form input[type="submit"]{
+    background: #000000;
+    color: #fefefe;
+    /*    border-color: #000;*/
+    transition: all 700ms ease 0s !important;
+    border: 1px solid #000000;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700 !important;
+    padding: 9.5px 18.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 11px;
+    margin-right: 34px;
+}
+
+.uc-cart-checkout-form input[type="text"]{
+    border: 2px solid #f4f4f4;
+    color: #9e9e9e;
+    font-size: 16px;
+    height: 48px;
+    padding: 0 20px;
+    width: 50%;
+}
+.single-footer-widget input[type=email]{
+    background: #1e1e1e;
+    border: 1px solid #242424;
+    color: #c1c1c1;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 55px;
+    position: relative;
+    -webkit-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+    width: 100%;
+}
+
+
+.product-content-box .content-box .addto-cart-box input[type="submit"]{
+
+    height: 50px;
+    width: 170px;
+    line-height: 30px;
+    margin-left: 25px;
+    background: #d5ac63; 
+    border: 2px solid #d5ac63;
+    color: #fff;
+}

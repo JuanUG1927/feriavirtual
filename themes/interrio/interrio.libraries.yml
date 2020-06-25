@@ -1,0 +1,56 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/update.css: {}
+      css/responsive.css: {}
+      
+
+
+global-scripts:
+  version: 1.0
+  js:
+    
+    js/jquery-1.11.1.min.js: {}
+    js/bootstrap.min.js: {}
+    js/jquery.bxslider.min.js: {}
+    js/jquery.countTo.js: {}
+    js/owl.carousel.min.js: {}
+    js/validate.js: {}
+    js/jquery.mixitup.min.js: {}
+    js/jquery.easing.min.js: {}
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A: {}
+    js/gmaps.js: {}
+    js/map-helper-2.js: {}
+    js/jquery.fitvids.js: {}
+    assets/jquery-ui-1.11.4/jquery-ui.js: {}
+    assets/language-switcher/jquery.polyglot.language.switcher.js: {}
+    js/jquery.fancybox.pack.js: {}
+    js/jquery.appear.js: {}
+    js/isotope.js: {}
+    js/jquery.prettyPhoto.js: {}
+    assets/revolution/js/jquery.themepunch.tools.min.js: {}
+    assets/revolution/js/jquery.themepunch.revolution.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.actions.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.carousel.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.kenburn.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.layeranimation.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.migration.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.navigation.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.parallax.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.slideanims.min.js: {}
+    assets/revolution/js/extensions/revolution.extension.video.min.js: {}
+    js/jquery.flexslider.js: {}
+    js/imagezoom.js: {}
+    js/jquery.bootstrap-touchspin.js: {}
+    js/custom.js: {}
+    
+
+
+
+
+
+  
+    
+
+  

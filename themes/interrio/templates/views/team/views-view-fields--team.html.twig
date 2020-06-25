@@ -1,0 +1,21 @@
+
+
+
+
+
+<div class="single-team-member">
+    <div class="img-holder">
+        <img src="{{ file_url(fields.uri.content|striptags|trim) }}" alt="Awesome Image">
+        <div class="overlay">
+            <div class="box">
+                <div class="content">
+                    {{fields.field_social_links.content}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-holder text-center">
+        <h3>{{fields.title.content}}</h3>
+        <p>{{fields.field_job.content}}</p>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<li>
+                                <div class="img-holder">
+                                    <img style="width: 83px;height: 83px;" src="{{ file_url(fields.uri.content|striptags|trim) }}" alt="Awesome Image">    
+                                </div>
+                                <div class="content">
+                                    {{fields.title.content}}
+                                    
+                                    <ul class="rate">
+                                         <li><span class="past-price">{{fields.field_old_price.content}}</span></li>
+                        <li><span>{{fields.price.content}}</span></li>
+                                    </ul>
+                                </div>
+                            </li>

@@ -1,0 +1,122 @@
+<div class="blog-post">
+    <!--Start single blog post-->
+    <div class="single-blog-item">
+        <div class="img-holder">
+            <img src="{{file_url(node.field_blog_image.0.entity.uri.value)}}" alt="Awesome Image">
+        </div>
+        <div class="text-holder">
+            <h3 class="blog-title">{{ node.getTitle }}</h3>
+            <ul class="meta-info">
+                <li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Fletcher</a></li>
+                <li><i class="fa fa-clock-o" aria-hidden="true"></i><a href="#">{{ node.created.value|date('M d,Y') }} </a></li>
+                <li><i class="fa fa-folder-open-o" aria-hidden="true"></i><a href="#">{{content.field_blog_categories.0}}</a></li>
+                <li><i class="fa fa-comments" aria-hidden="true"></i><a href="#"> {{node.field_blog_comments.comment_count }}</a></li>
+            </ul>
+            <div class="text">
+                 {{content.body}}
+            </div>
+        </div>    
+    </div>
+   
+    
+    
+    
+    <!--End bottom content box-->
+    <!--Start tag and social share box-->
+    <div class="tag-social-share-box">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tag pull-left">
+                    <p><span>Tags:</span> {{content.field_blog_categories.0}} </p>
+                </div>
+                <div class="social-share pull-right">
+                    <h5>Share<i class="fa fa-share-alt" aria-hidden="true"></i></h5>
+                    <ul class="social-share-links">
+                        <li><a href="http://www.facebook.com/sharer.php?u={{base_root ~ url}}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/intent/tweet?text={{ title }}&amp;url={{base_root ~ url}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="http://plus.google.com/share?url={{base_root ~ url}}"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                {#                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>#}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End tag and social share box-->
+    <!--Start author box-->
+   {{content.field_about_author.0 }}
+    <!--End author box-->
+    <!--Start comment box-->
+   {# <div class="comment-box">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h3>Comments ({{node.field_blog_comments.comment_count }})</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--End comment box-->
+    <!--Start add comment box-->
+    <div class="add-comment-box">
+        
+                        {{ content.comment }}
+       
+        
+       
+    </div>#}
+    <!--End add comment box-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

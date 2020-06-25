@@ -1,0 +1,60 @@
+{% include theme_path ~ "/templates/header.html.twig" %}
+{% include theme_path ~ "/templates/page-title.html.twig" %}
+<section id="blog-area" class="blog-single-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                {# Highlighted #}
+                    {% if page.highlighted %}
+                        {% block highlighted %}
+                            <div class="highlighted">{{ page.highlighted }}</div>
+                        {% endblock %}
+                    {% endif %}
+
+
+
+                    {# Action Links #}
+                    {% if action_links %}
+                        {% block action_links %}
+                            <ul class="action-links">{{ action_links }}</ul>
+                        {% endblock %}
+                    {% endif %}
+
+                    {# Help #}
+                    {% if page.help %}
+                        {% block help %}
+                            {{ page.help }}
+                        {% endblock %}
+                    {% endif %}
+
+                    {# Content #}
+                    {% block content %}
+                        {{ page.content }}
+                    {% endblock %}
+                
+                
+                
+                
+            </div>
+            <!--Start sidebar Wrapper-->
+            <div class="col-lg-3 col-md-4 col-sm-7 col-xs-12">
+                <div class="sidebar-wrapper">
+                   {{page.sidebar}}
+                </div>    
+            </div>
+            <!--End Sidebar Wrapper-->  
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+{% include theme_path ~ "/templates/footer.html.twig" %}

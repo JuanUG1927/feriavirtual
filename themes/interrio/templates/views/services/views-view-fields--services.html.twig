@@ -1,0 +1,23 @@
+<div class="col-md-4 col-sm-4 col-xs-12">
+    <div class="single-service-item">
+        <div class="img-holder">
+            <img src="{{ file_url(fields.uri.content|striptags|trim) }}" alt="{{fields.title.content}}">
+            <div class="overlay">
+                <div class="box">
+                    <div class="content">
+                        <a href="{{fields.view_node.content}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-holder">
+            <a href="{{fields.view_node.content}}"><h3>{{fields.title.content}}</h3></a>
+            <p>{{fields.body.content}}</p>
+            <a class="readmore" href="{{fields.view_node.content}}">Read More</a>
+        </div>    
+    </div>
+</div>
+
+
+
+

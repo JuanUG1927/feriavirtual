@@ -1,0 +1,82 @@
+<section class="top-bar-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-7">
+                <!--Start contact info left-->
+                <div class="contact-info-left clearfix">
+                    {{page.top_left}}
+                </div>
+                <!--End contact info left-->    
+            </div>
+            <div class="col-lg-5 col-md-5">
+                <!--Start contact info right-->
+                
+                    {{page.top_right}}
+                
+                <!--End contact info right--> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Start header-search  area-->
+<section class="header-search">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="search-form pull-right">
+                    <form action="search/node">
+                        <div class="search">
+                            <input type="search" name="search" value="" placeholder="Search Something">
+                            <button type="submit"><span class="icon fa fa-search"></span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End header-search  area-->  
+
+<!--Start header area-->
+<header class="header-area stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="outer-box clearfix">
+                    <!--Start logo-->
+                    <div class="logo">
+                        {{page.logo}}
+                    </div>
+                    <!--End logo-->
+                    <!--Start search box btn-->
+                    <div class="search-box-btn">
+                        <div class="toggle-search">
+                            <button><span class="icon fa fa-search"></span></button>    
+                        </div>
+                    </div>
+                    <!--End search box btn-->
+                    <!--Start cart btn-->
+                    
+                    <!--End cart btn-->
+                    <!--Start mainmenu-->
+                    <nav class="main-menu">
+                        <div class="navbar-header">   	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            {{page.navigation}}
+                           
+                        </div>
+                    </nav>
+                    <!--End mainmenu-->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>  
+<!--End header area-->

@@ -1,0 +1,45 @@
+name: Interrio
+type: theme
+description: 'Interrio - Drupal 8.6.3 Theme for Architecture, Construction, and Interior Design'
+
+core: 8.x
+screenshot: screenshot.png
+
+  
+regions:
+  logo: 'Logo'
+  navigation: 'Navigation'
+  top_left: 'Top Left Header'
+  top_right: 'Top Right Header'
+  quote: 'Get a Quote Button'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  breadcrumb: 'Breadcrumb'
+  breadcrumb2: 'Page Title Bottom'
+  content: 'Content'
+  sidebar: 'Blog Sidebar'
+  author: 'About Author'
+  shop: 'Shop Sidebar'
+  top_footer: 'Top Footer'
+  footer_column_1: 'Footer column 1'
+  footer_column_2: 'Footer column 2'
+  footer_column_3: 'Footer column 3'
+  footer_column_4: 'Footer column 4'
+  contact1: 'Contact1: Get In Touch'
+  contact2: 'Contact2: Get In Touch'
+  contact2_form: 'Contact2: Contact Form'
+  map: 'Contact Map'
+  social_footer: 'social footer'
+  copyright: 'Copyright'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  
+  
+
+libraries:
+  - 'interrio/global-styling'
+  - 'interrio/global-scripts'
+
+  
+  
+ 

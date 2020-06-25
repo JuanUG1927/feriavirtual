@@ -1,0 +1,57 @@
+<div class="single-slide-item">
+    <div class="img-box">
+        <img src="{{ file_url(fields.uri_1.content|striptags|trim) }}" alt="Awesome Image">
+        <div class="client-photo">
+            <img src="{{ file_url(fields.uri_2.content|striptags|trim) }}" alt="Awesome Image">
+        </div>
+        <div class="review-box">
+            {#<span>Project Rating:</span>#}
+            {{fields.field_project_star_rating.content}}
+        </div>
+    </div>
+    <div class="text-box">
+        <span class="flaticon-right"></span>
+        <div class="text">
+            <p>{{fields.body.content}}</p>
+            <h3>{{fields.title.content}}</h3>
+            <h4>{{fields.field_theme.content}}</h4>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

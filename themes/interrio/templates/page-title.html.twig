@@ -1,0 +1,23 @@
+<!--Start breadcrumb area-->     
+{% if (page['#title'])  %}
+    <section class="breadcrumb-area" style="background-image: url({{ base_path ~ directory }}/images/breadcrumb/breadcrumb-bg.jpg);">
+        <div class="container-fluid text-center">
+            <h1>{{ page['#title'] }}</h1>
+            <div class="breadcrumb-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="left pull-left">
+                                {{page.breadcrumb}}  
+                            </div>
+                            <div class="right pull-right">
+                                {{page.quote}}
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}
+<!--End breadcrumb area-->

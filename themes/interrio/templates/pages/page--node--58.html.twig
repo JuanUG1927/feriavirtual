@@ -1,0 +1,37 @@
+
+{% include theme_path ~ "/templates/header.html.twig" %}
+
+
+
+                         {# Highlighted #}
+                        {% if page.highlighted %}
+                            {% block highlighted %}
+                                <div class="highlighted">{{ page.highlighted }}</div>
+                            {% endblock %}
+                        {% endif %}
+
+
+                        {# Action Links #}
+                        {% if action_links %}
+                            {% block action_links %}
+                                <ul class="action-links">{{ action_links }}</ul>
+                            {% endblock %}
+                        {% endif %}
+
+                        {# Help #}
+                        {% if page.help %}
+                            {% block help %}
+                                {{ page.help }}
+                            {% endblock %}
+                        {% endif %}
+
+                        {# Content #}
+                        {% block content %}
+                            {{ page.content }}
+                        {% endblock %}
+
+
+
+
+
+{% include theme_path ~ "/templates/footer.html.twig" %}
